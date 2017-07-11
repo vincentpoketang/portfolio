@@ -1,6 +1,6 @@
 
   // niceScroll
-  $("html").niceScroll();
+  //$("html").niceScroll();
     
     
   // Stick menu
@@ -86,6 +86,12 @@ else
     });
   });
 
+  //Menu link click
+  $("ul.menu-click>a").click(function(){
+    $( " ul.menu-click" ).slideToggle( "slow", function() {
+    // Animation complete.
+    });
+  });
 
 $(window).load(function(){
 

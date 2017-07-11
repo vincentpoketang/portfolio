@@ -76,12 +76,12 @@ h1 span{
 
 
 ::selection {
-  background: #ada074;
+  background: #1b4229;
   color:white;
 }
 
 ::-moz-selection {
-  background: #ada074;
+  background: #1b4229;
   color:white;
 }
 
@@ -91,9 +91,6 @@ h1 span{
   width:100%;
   height:100%;
 }
-
-
-
 
 
 
@@ -145,7 +142,16 @@ h1 span{
   bottom:0; 
   right:0;
   width:700px;
-  height:520px;
+  height:300px;
+}
+
+.start-page .content .text h1, .start-page .content .text p{
+	text-shadow: 2px 2px black;
+}
+
+.start-page .content .text p{
+	font-size: 20px;
+	font-weight: 400;
 }
 
 .start-page .content .text .logo{
@@ -178,8 +184,8 @@ h1 span{
 
 .start-page .content .text .read-more:hover{
   color:white;
-  background: #ada074;
-  border:1px solid #ada074;
+  background: #1b4229;
+  border:1px solid #1b4229;
 }
 
 .start-page .content .arrow-down{
@@ -222,7 +228,7 @@ h1 span{
   position:relative;
   width:100%;
   height:90px;
-  background:#ada074;
+  background:#1b4229;
   z-index:1000;
   display:none;
 }
@@ -252,6 +258,9 @@ h1 span{
 
 .menu-click{
   display:none;
+	position:absolute;
+	text-align: center;
+	width: 100%;
 }
 
 
@@ -259,6 +268,7 @@ h1 span{
   position:relative;
   width:100%;
   height:70px;
+	background-color: lightgray ;
   color:#333333;
   font-size:18px;
   text-align:center;
@@ -273,7 +283,7 @@ h1 span{
  }
 
 .menu-click li:hover {
-  color:#ada074;
+  color:#1b4229;
  }
 
 
@@ -332,31 +342,31 @@ h1 span{
 }
 
 .menu-content li.active a{
-  color:#ada074;
+  color:#1b4229;
 }
 
 .menu-content li a:hover{
-  color:#ada074;
+  color:#1b4229;
 }
 
 
 /* About us */
 
-.about-us{
+.about-me{
   position:relative;
   width:100%;
   background:white;
   z-index:10;
 }
 
-.about-us .content{
+.about-me .content{
   position:relative;
   width:900px;
   margin: 0 auto;
   overflow: hidden;
 }
 
-.about-us h1{
+.about-me h1{
   font-size:34px;
   color:black;
   text-align:center;
@@ -368,7 +378,7 @@ h1 span{
 
 }
 
-.about-us hr{
+.about-me hr{
   color: black;
   margin-top:30px;
   background-color: black;
@@ -378,7 +388,7 @@ h1 span{
 
 }
 
-.about-us p.title{
+.about-me p.title{
   color: #a4a4a4;
   margin:40px auto;
   width:300px;
@@ -389,7 +399,7 @@ h1 span{
   text-align:center;
 }
 
-.about-us h2{
+.about-me h2{
   text-align:center;
   margin-top:50px;
   font-size:26px;
@@ -401,7 +411,7 @@ h1 span{
   font-weight:400;
 }
 
-.about-us p{
+.about-me p{
   text-align:center;
   font-size:14px;
   width:250px;
@@ -413,7 +423,7 @@ h1 span{
   font-weight:300;
 }
 
-.about-us .column-one{
+.about-me .column-one{
   margin-top:40px;
   width:300px;
   float:left;
@@ -421,7 +431,7 @@ h1 span{
   height:350px;
 }
 
-.about-us .column-one .circle-one{
+.about-me .column-one .circle-one{
   height: 100px;
   position:relative;
   margin:0 auto;
@@ -439,12 +449,12 @@ h1 span{
 	transition: all 0.2s ease-in;
 }
 
-.about-us .column-one .circle-one:hover{
-  border:2px solid #ada074;
+.about-me .column-one .circle-one:hover{
+  border:2px solid #1b4229;
 
 }
 
-.about-us .column-two{
+.about-me .column-two{
   margin-top:40px;
   width:300px;
   float:left;
@@ -452,7 +462,7 @@ h1 span{
   height:350px;
 }
 
-.about-us .column-two .circle-two{
+.about-me .column-two .circle-two{
   height: 100px;
   position:relative;
   margin:0 auto;
@@ -470,12 +480,12 @@ h1 span{
 	transition: all 0.2s ease-in;
 }
 
-.about-us .column-two .circle-two:hover{
-  border:2px solid #ada074;
+.about-me .column-two .circle-two:hover{
+  border:2px solid #1b4229;
 }
 
 
-.about-us .column-three{ 
+.about-me .column-three{ 
   margin-top:40px;
   width:300px;
   float:left;
@@ -483,7 +493,7 @@ h1 span{
   height:350px;
 }
 
-.about-us .column-three .circle-three{ 
+.about-me .column-three .circle-three{ 
   height: 100px;
   position:relative;
   margin:0 auto;
@@ -501,8 +511,8 @@ h1 span{
 	transition: all 0.2s ease-in;
 }
 
-.about-us .column-three .circle-three:hover{ 
-  border:2px solid #ada074;
+.about-me .column-three .circle-three:hover{ 
+  border:2px solid #1b4229;
 }
 
 
@@ -547,9 +557,9 @@ h1 span{
 }
 
 .portfolio .portfolio-margin .read-more:hover{
-  background:#ada074;
+  background:#1b4229;
   color:white;
-  border:1px solid #ada074;
+  border:1px solid #1b4229;
 }
 
 .portfolio .portfolio-margin h1{
@@ -910,7 +920,7 @@ input.submit{
 }
 
 .footer .menu-footer a:hover{
-  color:#ada074;
+  color:#1b4229;
 }
 
 
