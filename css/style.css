@@ -76,12 +76,12 @@ h1 span{
 
 
 ::selection {
-  background: #1b4229;
+  background: #ada074;
   color:white;
 }
 
 ::-moz-selection {
-  background: #1b4229;
+  background: #ada074;
   color:white;
 }
 
@@ -178,8 +178,8 @@ h1 span{
 
 .start-page .content .text .read-more:hover{
   color:white;
-  background: #1b4229;
-  border:1px solid #1b4229;
+  background: #ada074;
+  border:1px solid #ada074;
 }
 
 .start-page .content .arrow-down{
@@ -222,7 +222,7 @@ h1 span{
   position:relative;
   width:100%;
   height:90px;
-  background:#1b4229;
+  background:#ada074;
   z-index:1000;
   display:none;
 }
@@ -273,7 +273,7 @@ h1 span{
  }
 
 .menu-click li:hover {
-  color:#1b4229;
+  color:#ada074;
  }
 
 
@@ -332,31 +332,31 @@ h1 span{
 }
 
 .menu-content li.active a{
-  color:#1b4229;
+  color:#ada074;
 }
 
 .menu-content li a:hover{
-  color:#1b4229;
+  color:#ada074;
 }
 
 
 /* About us */
 
-.about-me{
+.about-us{
   position:relative;
   width:100%;
   background:white;
   z-index:10;
 }
 
-.about-me .content{
+.about-us .content{
   position:relative;
   width:900px;
   margin: 0 auto;
   overflow: hidden;
 }
 
-.about-me h1{
+.about-us h1{
   font-size:34px;
   color:black;
   text-align:center;
@@ -368,7 +368,7 @@ h1 span{
 
 }
 
-.about-me hr{
+.about-us hr{
   color: black;
   margin-top:30px;
   background-color: black;
@@ -378,7 +378,7 @@ h1 span{
 
 }
 
-.about-me p.title{
+.about-us p.title{
   color: #a4a4a4;
   margin:40px auto;
   width:300px;
@@ -389,7 +389,7 @@ h1 span{
   text-align:center;
 }
 
-.about-me h2{
+.about-us h2{
   text-align:center;
   margin-top:50px;
   font-size:26px;
@@ -401,7 +401,7 @@ h1 span{
   font-weight:400;
 }
 
-.about-me p{
+.about-us p{
   text-align:center;
   font-size:14px;
   width:250px;
@@ -413,7 +413,7 @@ h1 span{
   font-weight:300;
 }
 
-.about-me .column-one{
+.about-us .column-one{
   margin-top:40px;
   width:300px;
   float:left;
@@ -421,7 +421,7 @@ h1 span{
   height:350px;
 }
 
-.about-me .column-one .circle-one{
+.about-us .column-one .circle-one{
   height: 100px;
   position:relative;
   margin:0 auto;
@@ -439,12 +439,12 @@ h1 span{
 	transition: all 0.2s ease-in;
 }
 
-.about-me .column-one .circle-one:hover{
-  border:2px solid #1b4229;
+.about-us .column-one .circle-one:hover{
+  border:2px solid #ada074;
 
 }
 
-.about-me .column-two{
+.about-us .column-two{
   margin-top:40px;
   width:300px;
   float:left;
@@ -452,7 +452,7 @@ h1 span{
   height:350px;
 }
 
-.about-me .column-two .circle-two{
+.about-us .column-two .circle-two{
   height: 100px;
   position:relative;
   margin:0 auto;
@@ -470,12 +470,12 @@ h1 span{
 	transition: all 0.2s ease-in;
 }
 
-.about-me .column-two .circle-two:hover{
-  border:2px solid #1b4229;
+.about-us .column-two .circle-two:hover{
+  border:2px solid #ada074;
 }
 
 
-.about-me .column-three{ 
+.about-us .column-three{ 
   margin-top:40px;
   width:300px;
   float:left;
@@ -483,7 +483,7 @@ h1 span{
   height:350px;
 }
 
-.about-me .column-three .circle-three{ 
+.about-us .column-three .circle-three{ 
   height: 100px;
   position:relative;
   margin:0 auto;
@@ -501,8 +501,8 @@ h1 span{
 	transition: all 0.2s ease-in;
 }
 
-.about-me .column-three .circle-three:hover{ 
-  border:2px solid #1b4229;
+.about-us .column-three .circle-three:hover{ 
+  border:2px solid #ada074;
 }
 
 
@@ -547,9 +547,9 @@ h1 span{
 }
 
 .portfolio .portfolio-margin .read-more:hover{
-  background:#1b4229;
+  background:#ada074;
   color:white;
-  border:1px solid #1b4229;
+  border:1px solid #ada074;
 }
 
 .portfolio .portfolio-margin h1{
@@ -910,7 +910,7 @@ input.submit{
 }
 
 .footer .menu-footer a:hover{
-  color:#1b4229;
+  color:#ada074;
 }
 
 
