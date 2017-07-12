@@ -1,0 +1,17 @@
+// Styling for the skills section
+#skills{
+    .skill-box {
+        max-width: 400px;
+        margin: 50px auto 0;
+        @media (min-width: 992px) {
+            margin: 20px auto 0;
+        }
+        p {
+            margin-bottom: 0;
+        }
+        svg {
+            width: 64px;
+            height: 64px;
+        }
+    }
+}
