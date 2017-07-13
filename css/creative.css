@@ -211,6 +211,14 @@ header.masthead {
             margin-right: auto;
             margin-left: auto; } }
 
+#skills .text-center.col-6.col-md-3.col-lg-3:hover {
+  animation-name: bob-animation-float, bob-animation;
+  animation-duration: .3s, 2s;
+  animation-delay: 0s, .3s;
+  animation-timing-function: ease-out, ease-in-out;
+  animation-iteration-count: 1, infinite;
+  animation-fill-mode: forwards;
+  animation-direction: normal, alternate; }
 #skills .skill-box {
   max-width: 400px;
   margin: 50px auto 0; }
@@ -223,6 +231,35 @@ header.masthead {
     width: 64px;
     height: 64px; }
 
+/*========= Bob-animation for the icons ==========*/
+@-webkit-keyframes bob-animation {
+  0% {
+    -webkit-transform: translateY(-8px);
+    transform: translateY(-8px); }
+  50% {
+    -webkit-transform: translateY(-4px);
+    transform: translateY(-4px); }
+  100% {
+    -webkit-transform: translateY(-8px);
+    transform: translateY(-8px); } }
+@keyframes bob-animation {
+  0% {
+    -webkit-transform: translateY(-8px);
+    transform: translateY(-8px); }
+  50% {
+    -webkit-transform: translateY(-4px);
+    transform: translateY(-4px); }
+  100% {
+    -webkit-transform: translateY(-8px);
+    transform: translateY(-8px); } }
+@-webkit-keyframes bob-animation-float {
+  100% {
+    -webkit-transform: translateY(-8px);
+    transform: translateY(-8px); } }
+@keyframes bob-animation-float {
+  100% {
+    -webkit-transform: translateY(-8px);
+    transform: translateY(-8px); } }
 .application-box {
   position: relative;
   display: block;
