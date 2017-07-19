@@ -16,9 +16,7 @@ header.masthead {
     min-height: auto;
     text-align: center;
     color: white;
-    background-image: url('../img/header.jpg');
-    background-position: center;
-    @include background-cover;
+    background: url('../img/header.jpg') bottom center fixed no-repeat;
     .header-content {
         position: relative;
         width: 100%;

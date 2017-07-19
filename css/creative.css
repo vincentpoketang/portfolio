@@ -6,6 +6,9 @@ body {
 body {
   font-family: 'Merriweather', 'Helvetica Neue', Arial, sans-serif; }
 
+#contents {
+  height: 100vh; }
+
 hr {
   max-width: 50px;
   border-width: 3px;
@@ -54,6 +57,9 @@ section {
 .no-padding {
   padding: 0; }
 
+.no-padding-bottom {
+  padding-bottom: 0; }
+
 ::-moz-selection {
   color: white;
   background: #222222;
@@ -74,6 +80,21 @@ img::-moz-selection {
 
 body {
   -webkit-tap-highlight-color: #222222; }
+
+.preloader {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background: #f9f9f9;
+  z-index: 99999;
+  text-align: center; }
+
+.preloader .item {
+  position: absolute;
+  width: 100vw;
+  margin-top: 20vh; }
+  .preloader .item img {
+    width: 40vw; }
 
 #mainNav {
   border-color: rgba(34, 34, 34, 0.05);
@@ -163,12 +184,7 @@ header.masthead {
   min-height: auto;
   text-align: center;
   color: white;
-  background-image: url("../img/header.jpg");
-  background-position: center;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover; }
+  background: url("../img/header.jpg") bottom center fixed no-repeat; }
   header.masthead .header-content {
     position: relative;
     width: 100%;
@@ -230,6 +246,8 @@ header.masthead {
   #skills .skill-box svg {
     width: 64px;
     height: 64px; }
+  #skills .skill-box h5 {
+    font-weight: 600; }
 
 /*========= Bob-animation for the icons ==========*/
 @-webkit-keyframes bob-animation {
@@ -305,6 +323,8 @@ header.masthead {
       font-size: 22px; } }
 
 .call-to-action {
+  background-color: #216138;
+  color: white;
   padding: 50px 0; }
   .call-to-action h2 {
     margin: 0 auto 20px; }
