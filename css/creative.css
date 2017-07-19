@@ -196,7 +196,8 @@ header.masthead {
       margin-top: 0;
       margin-bottom: 0;
       text-transform: uppercase;
-      text-shadow: 2px 2px black; }
+      text-shadow: 2px 2px black;
+      letter-spacing: 20px; }
     header.masthead .header-content .header-content-inner hr {
       margin: 30px auto; }
     header.masthead .header-content .header-content-inner p {
@@ -222,7 +223,7 @@ header.masthead {
           header.masthead .header-content .header-content-inner h1 {
             font-size: 50px; }
           header.masthead .header-content .header-content-inner p {
-            font-size: 18px;
+            font-size: 20px;
             max-width: 80%;
             margin-right: auto;
             margin-left: auto; } }

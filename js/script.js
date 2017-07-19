@@ -13,7 +13,3 @@ document.onreadystatechange = function () {
     }
   }
 }
-// Parallax
-$(document).ready(function(){
-    
-});
