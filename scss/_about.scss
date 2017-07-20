@@ -1,11 +1,16 @@
 #about{
     div{
-        text-align:center;
+        text-align:left;
+        h2{
+            text-align: center;
+        }
         img{
             width: 30vw;
             max-width: 400px;
             min-width: 250px;
             margin-bottom: 20px;
+            text-align:center;
         }
+        
     }
 }

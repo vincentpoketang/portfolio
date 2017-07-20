@@ -4,7 +4,7 @@ body {
   height: 100%; }
 
 body {
-  font-family: 'Merriweather', 'Helvetica Neue', Arial, sans-serif; }
+  font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif; }
 
 #contents {
   height: 100vh; }
@@ -161,12 +161,15 @@ body {
             color: #216138; } }
 
 #about div {
-  text-align: center; }
+  text-align: left; }
+  #about div h2 {
+    text-align: center; }
   #about div img {
     width: 30vw;
     max-width: 400px;
     min-width: 250px;
-    margin-bottom: 20px; }
+    margin-bottom: 20px;
+    text-align: center; }
 
 header.masthead:before {
   background-color: rgba(0, 0, 0, 0.1);
