@@ -1,3 +1,8 @@
+@media (min-aspect-ratio: 1200/600){
+    #info-box{
+        display: none;
+    }
+}
 #info-box{
     height: 12vh;
     max-height: 150px;
