@@ -1,0 +1,26 @@
+body{
+    height: 100vh;
+    background-image: url("../images/background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.row{
+    width:100%;
+    height: 60vh;
+    position: relative;
+}
+.clicked{
+    display: none;
+}
+@media (orientation:portrait) {
+    .main {
+        display: none;
+    }
+    body {
+        background-color: black;
+        /* background-image: url("http://support.volvocars.com/SiteCollectionDocuments/theGuide/S90/images/_system/rotate.gif"); */
+        background-image: url("https://www.camb-ed.co.uk/Portals/_default/Skins/CambEducation2015/images/phone-tablet_orientation-switch.png");
+        background-size: cover;
+        background-position: top right;
+    }
+}

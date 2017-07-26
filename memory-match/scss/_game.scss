@@ -1,0 +1,12 @@
+#game{
+    width:70%;
+    max-height:800px;
+    @media (min-width: 1400px){
+        #game-area{
+            margin-top:50px;
+        }
+    }
+    #game-area div{
+        display: inline-block;
+    }
+}
