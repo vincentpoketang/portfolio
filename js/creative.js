@@ -39,7 +39,7 @@
     window.sr = ScrollReveal();
     sr.reveal('.sr-icons', {
         duration: 600,
-        scale: 0.3,
+        scale: 0.9,
         distance: '0px'
     }, 200);
     sr.reveal('.sr-button', {
