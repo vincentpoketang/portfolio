@@ -1,13 +1,11 @@
 // Styling for the skills section
 #skills{
     .text-center.col-6.col-md-3.col-lg-3:hover {
-        animation-name: bob-animation-float, bob-animation;
-        animation-duration: .3s, 2s;
-        animation-delay: 0s, .3s;
-        animation-timing-function: ease-out, ease-in-out;
-        animation-iteration-count: 1, infinite;
-        animation-fill-mode: forwards;
-        animation-direction: normal, alternate;
+        animation-name: bob-animation;
+        animation-duration: .5s;
+        animation-timing-function: ease-in-out;
+        animation-iteration-count: infinite;
+        animation-direction: normal;
     }
     .skill-box {
         max-width: 400px;
@@ -29,45 +27,37 @@
 }
 /*========= Bob-animation for the icons ==========*/
 @-webkit-keyframes bob-animation{
-    0% {
-        -webkit-transform: translateY(-8px);
-        transform: translateY(-8px);
+    0%, 100% {
+        -webkit-transform: translateY(-20px);
+        transform: translateY(-20px);
     }
     50% {
-        -webkit-transform: translateY(-4px);
-        transform: translateY(-4px);
-    }
-    100% {
-        -webkit-transform: translateY(-8px);
-        transform: translateY(-8px);
+        -webkit-transform: translateY(-10px);
+        transform: translateY(-10px);
     }
 }
 
 @keyframes bob-animation{
-    0% {
-        -webkit-transform: translateY(-8px);
-        transform: translateY(-8px);
+    0%, 100% {
+        -webkit-transform: translateY(-20px);
+        transform: translateY(-20px);
     }
     50% {
-        -webkit-transform: translateY(-4px);
-        transform: translateY(-4px);
-    }
-    100% {
-        -webkit-transform: translateY(-8px);
-        transform: translateY(-8px);
+        -webkit-transform: translateY(-10px);
+        transform: translateY(-10px);
     }
 }
 
 @-webkit-keyframes bob-animation-float {
     100% {
-        -webkit-transform: translateY(-8px);
-        transform: translateY(-8px);
+        -webkit-transform: translateY(-20px);
+        transform: translateY(-20px);
     }
 }
 
 @keyframes bob-animation-float {
     100% {
-        -webkit-transform: translateY(-8px);
-        transform: translateY(-8px);
+        -webkit-transform: translateY(-20px);
+        transform: translateY(-20px);
     }
 }
