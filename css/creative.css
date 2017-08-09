@@ -234,7 +234,7 @@ header.masthead {
 
 #skills .text-center.col-6.col-md-3.col-lg-3:hover {
   animation-name: bob-animation;
-  animation-duration: .5s;
+  animation-duration: .75s;
   animation-timing-function: ease-in-out;
   animation-iteration-count: infinite;
   animation-direction: normal; }
@@ -255,15 +255,15 @@ header.masthead {
 /*========= Bob-animation for the icons ==========*/
 @-webkit-keyframes bob-animation {
   0%, 100% {
-    -webkit-transform: translateY(-20px);
-    transform: translateY(-20px); }
+    -webkit-transform: translateY(0);
+    transform: translateY(0); }
   50% {
     -webkit-transform: translateY(-10px);
     transform: translateY(-10px); } }
 @keyframes bob-animation {
   0%, 100% {
-    -webkit-transform: translateY(-20px);
-    transform: translateY(-20px); }
+    -webkit-transform: translateY(0);
+    transform: translateY(0); }
   50% {
     -webkit-transform: translateY(-10px);
     transform: translateY(-10px); } }

@@ -25,7 +25,11 @@
     $('.navbar-collapse>ul>li>a').click(function() {
         $('.navbar-collapse').collapse('hide');
     });
-
+    
+    $('.navbar-brand').click(function() {
+        $('.navbar-collapse').collapse('hide');
+    });
+    
     // Collapse the navbar when page is scrolled
     $(window).scroll(function() {
         if ($("#mainNav").offset().top > 100) {
